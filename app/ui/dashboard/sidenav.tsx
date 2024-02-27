@@ -2,6 +2,7 @@ import Link from 'next/link';
 import NavLinks from '@/app/ui/dashboard/nav-links';
 import AcmeLogo from '@/app/ui/acme-logo';
 import { PowerIcon } from '@heroicons/react/24/outline';
+import { ArrowRightIcon } from '@heroicons/react/24/outline';
 
 export default function SideNav() {
   return (
@@ -23,6 +24,7 @@ export default function SideNav() {
             <div className="hidden md:block">Sign Out</div>
           </button>
         </form>
+        
       </div>
     </div>
   );
